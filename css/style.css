@@ -3,10 +3,6 @@
 	flex-wrap: wrap;
 }
 
-body{
-	background-color: #F5B333 !important;
-}
-
 h2{
 	font-size: 0.9em !important;
 }
@@ -25,19 +21,20 @@ button{
 }
 
 .main-container{
-	width: 80%;
+	width: 100%;
 	margin: auto;
 	display: flex;
+	background-image: url(../images/wood.jpg) !important;
 }
 
 .card-container{
 	border-radius: 5px;
 	background-color: white;
 	margin: 50px auto;
-	max-width: 35%;
-	min-width: 35%;
+	max-width: 500px;
 	display: flex;
 	overflow: hidden;
+	margin: 20px auto;
 }
 
 .bloc-presentation-produit{
@@ -104,4 +101,9 @@ button{
 	p{
 		font-size: 0.8em;
 	}
+
+	.card-container{
+	margin: 50px auto;
+	max-width: 350px;
+}
 }
